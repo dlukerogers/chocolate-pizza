@@ -1,0 +1,144 @@
+#logo {
+  display: flex;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Yellowtail', cursive;
+  font-size: 25px;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+#logo p {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 10px;
+  margin-top: 2px;
+
+}
+
+nav img {
+  height: 35px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+nav a{
+text-decoration: none;
+color: black;
+}
+
+nav ul {
+  display: flex;
+  position: relative;
+  right: 0;
+  /* left: 525px; */
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+nav li {
+  margin: 1px;
+}
+
+#wifi-icon {
+  margin-left: 6px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+.hr {
+  background-image: url("img/hr-img.png");
+  background-repeat: repeat;
+  background-color: #cccccc;
+  height: 1rem;
+  width: 100%;
+}
+
+main {
+  margin-top: 50px;
+
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+#subtitle p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 11px;
+  color: gray;
+}
+
+#subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+#subtitle a p {
+  display: inline;
+}
+
+#subtitle a {
+  position: relative;
+  right: 0;
+  text-decoration: none;
+  color: gray;
+  font-size: 10px;
+}
+
+main > img {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#instructions-text {
+  color: gray;
+
+}
+
+#instructions-text p {
+  margin-bottom: 1rem;
+  text-indent: 1rem;
+  font-size: 14px;
+}
+
+#ingredients-list {
+  position: relative;
+
+}
+
+#ingredients-list img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+#ingredients-list ul {
+  position: relative;
+  z-index: 2;
+  bottom: 12em;
+  column-count: 2;
+  margin-left: 80px;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+#ingredients-list li {
+  padding: 1.5px;
+  font-family: 'Dekko', cursive;
+}
+
+.crossed-out-item {
+  text-decoration:line-through;
+}
